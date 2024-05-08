@@ -1,32 +1,36 @@
-![Image alt](./src/images/for-readme/main_img.png)
+[![Обложка к видео «GraphQL»](./src/images/img.png)](https://youtu.be/xOnSonN1X3A)
 
-# **GraphQL & Java Script**
+
+# **GraphQL**
 
 
 ---
 
 ## Description:
 
-The project demonstrates my skills and abilities.
 
-On the site you can find information about most of my projects and find all the necessary links to contact me.
+The project created to study GraphQL.
+
 
 ---
 
 ## Stack:
 
-✔️ React
 
-✔️ CSS
+✔️ vanilla Java Script
 
-✔️ BEM metodology
+✔️ GraphQL
 
-✔️ Functional components
 
-✔️ Framer Motion Library
+---
 
-✔️ Adaptive layout
 
-✔️ Prettier
+## Info:
+
+
+- query => получение данных
+- mutation => создание / изменение / удаление данных
+- subscription => подписка на обновление
+
 
 ---

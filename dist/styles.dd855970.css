@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: 
+    radial-gradient(at 80% 0%, #80ED99 0px, transparent 50%),
+    radial-gradient(at 0% 50%, #45DFB1 0px, transparent 50%),
+    radial-gradient(at 80% 50%, #0AD1C8 0px, transparent 50%),
+    radial-gradient(at 0% 100%, #14919B 0px, transparent 50%),
+    radial-gradient(at 80% 100%, #0B6477 0px, transparent 50%),
+    radial-gradient(at 0% 0%, #213A57 0px, transparent 50%);
+}
+
+.todos {
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.todos__title {
+  font-size: 52px;
+  align-self: center;
+  margin: 40px 0;
+}
+
+.todos__inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  color:#213A57;
+  font-size: medium;
+  border: none;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  border: solid 1px #213A57;
+  color:#80ED99;
+  height: 38px;
+  width: 50px;
+  background-color: #14919B;
+  
+  margin: 0;
+}
+
+.btn:hover {
+  color:#14919B;
+  background-color: #80ED99;
+}
+
+.form-control {
+ min-height: 30px;
+ border-radius: 10px;
+ padding: 10px;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 20px;
+}
+
+/*# sourceMappingURL=/styles.dd855970.css.map */
